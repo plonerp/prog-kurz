@@ -10,10 +10,10 @@ require 'Kalkulacka.php';
 
 // Level 1
 echo '============LEVEL1=============';
-echo PHP_EOL;
+echo "\r\n";
 
 echo '==Úkol 1==';
-echo PHP_EOL;
+echo "\r\n";
 $trojuhelnik = [];
 $a = '';
 
@@ -27,45 +27,45 @@ for ($i = 0; $i < 5; $i++) {
 vytiskniTrojuhelnik($trojuhelnik);
 
 echo '==Úkol 2==';
-echo PHP_EOL;
+echo "\r\n";
 
 $a = 2;
 $b = 3;
 $c = vynasob($a, $b);
 echo sprintf('Výsledek násobení čísel %s a %s je %s', $a, $b, $c);
-echo PHP_EOL;
+echo "\r\n";
 
 
 echo '==Úkol 3==';
-echo PHP_EOL;
+echo "\r\n";
 
 $cisla = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 zobrazLichacisla($cisla);
 
 echo '===============================';
-echo PHP_EOL;
+echo "\r\n";
 
 
 // Level 2
 echo '============LEVEL2=============';
-echo PHP_EOL;
+echo "\r\n";
 echo '==Úkol 1==';
-echo PHP_EOL;
+echo "\r\n";
 
-echo deleni(2, 1) . PHP_EOL;
-//echo deleni(2,0) . PHP_EOL;
-//echo deleni('retezec',3) . PHP_EOL;
+echo deleni(2, 1) . "\r\n";
+//echo deleni(2,0) . "\r\n";
+//echo deleni('retezec',3) . "\r\n";
 
 
 echo '===============================';
-echo PHP_EOL;
+echo "\r\n";
 
 // Level 3
 echo '============LEVEL3=============';
-echo PHP_EOL;
+echo "\r\n";
 
 echo '==Úkol 1==';
-echo PHP_EOL;
+echo "\r\n";
 
 $clovek = new Clovek('Petr');
 $student = new Student('Standa', 'programator');
@@ -77,20 +77,20 @@ skolniPozdrav($student);
 //skolniPozdrav($clovek);
 
 echo '==Úkol 2==';
-echo PHP_EOL;
+echo "\r\n";
 
 $jednoduchyVypocetniModul = new JednoduchyVypocetniModul();
 $kalkulacka = new Kalkulacka($jednoduchyVypocetniModul);
 
-echo $kalkulacka->secti(1, 1) . PHP_EOL;
-echo $kalkulacka->odecti(1, 1) . PHP_EOL;
+echo $kalkulacka->secti(1, 1) . "\r\n";
+echo $kalkulacka->odecti(1, 1) . "\r\n";
 
 //$slozityVypocetniModul = new SlozityVypocetniModul();
 //$kalkulacka = new Kalkulacka($slozityVypocetniModul);
 //
-//echo $kalkulacka->secti(1, 1) . PHP_EOL;
-//echo $kalkulacka->odecti(1, 1) . PHP_EOL;
+//echo $kalkulacka->secti(1, 1) . "\r\n";
+//echo $kalkulacka->odecti(1, 1) . "\r\n";
 
 
 echo '===============================';
-echo PHP_EOL;
+echo "\r\n";
