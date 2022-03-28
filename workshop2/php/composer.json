@@ -1,0 +1,12 @@
+{
+    "name": "petrploner/php",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Petr Ploner",
+            "email": "petrp@autoprop.ca"
+        }
+    ]
+}
